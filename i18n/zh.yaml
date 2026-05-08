@@ -1,0 +1,19 @@
+# 页脚
+licensed_under: "采用"
+powered_by: "由"
+
+# 404
+page_not_found: "页面未找到"
+page_does_not_exist: "抱歉，您要访问的页面不存在。"
+head_back: '<a href="%s">返回首页</a>'
+
+# 文章元信息
+reading_time: "阅读时间约 %d 分钟"
+link_to_heading: "链接到标题"
+see_also: "参见"
+
+# 分类与标签
+categories: "分类"
+tags: "标签"
+series: "系列"
+authors: "作者"

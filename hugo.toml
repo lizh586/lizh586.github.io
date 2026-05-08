@@ -1,0 +1,141 @@
+baseURL = "https://lizh586.github.io/"
+title = "李哲"
+theme = "coder"
+locale = "zh-CN"
+defaultContentLanguage = "zh"
+enableEmoji = true
+
+[pagination]
+pagerSize = 10
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "李哲"
+description = "李哲的个人主页 — 数学、强化学习与量化"
+keywords = "强化学习, 深度学习, 量化, 数学, 区块链"
+info = ["中大数院 → 上交计算机", "RL / DL / Quant"]
+avatarURL = ""
+dateFormat = "2006-01-02"
+since = 2026
+colorScheme = "auto"
+hideColorSchemeToggle = false
+customSCSS = ["scss/custom.scss"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/lizh586"
+
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 2
+url = "mailto:lize0207@outlook.com"
+
+# LinkedIn removed
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 4
+url = "/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+[languages.zh]
+locale = "zh-CN"
+label = "中文"
+title = "李哲"
+weight = 1
+
+[languages.zh.params]
+author = "李哲"
+description = "李哲的个人主页 — 数学、强化学习与量化"
+keywords = "强化学习, 深度学习, 量化, 数学, 区块链"
+info = ["中大数院 → 上交计算机", "RL / DL / Quant"]
+
+[[languages.zh.menu.main]]
+name = "首页"
+weight = 1
+url = "/"
+
+[[languages.zh.menu.main]]
+name = "关于"
+weight = 2
+url = "about/"
+
+[[languages.zh.menu.main]]
+name = "项目"
+weight = 3
+url = "projects/"
+
+[[languages.zh.menu.main]]
+name = "博客"
+weight = 4
+url = "posts/"
+
+[[languages.zh.menu.main]]
+name = "LeetCode"
+weight = 5
+url = "leetcode/"
+
+[[languages.zh.menu.main]]
+name = "联系"
+weight = 6
+url = "contact/"
+
+[languages.en]
+locale = "en-US"
+label = "English"
+title = "Li Zhe"
+weight = 2
+
+[languages.en.params]
+author = "Li Zhe"
+description = "Li Zhe's personal website — math, RL, and quant"
+keywords = "reinforcement learning, deep learning, quant, math, blockchain"
+info = ["Math → CS @ SJTU", "RL / DL / Quant"]
+dateFormat = "January 2, 2006"
+
+[[languages.en.menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 2
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 4
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "LeetCode"
+weight = 5
+url = "leetcode/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 6
+url = "contact/"

@@ -1,0 +1,290 @@
+// ===== Custom Styles for Personal Homepage =====
+
+// Import theme variables to use in this file
+@import "../../themes/coder/assets/scss/variables";
+
+// --- Better Typography & Spacing ---
+html {
+  @media only screen and (max-width: 768px) {
+    font-size: 56%;
+  }
+}
+
+body {
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+
+// --- Container: more breathing room ---
+.container {
+  max-width: 86rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+
+// --- Hero section (homepage): no avatar, cleaner spacing ---
+.centered {
+  padding-top: 2rem;
+  padding-bottom: 0;
+
+  .about {
+    h1 {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 3.6rem;
+    }
+
+    h2 {
+      margin-top: 0.5rem;
+      font-size: 2rem;
+      opacity: 0.8;
+    }
+
+    ul {
+      margin: 2rem 0 0.5rem 0;
+    }
+  }
+}
+
+// --- Content section on homepage & pages ---
+.content {
+  display: block !important;
+  font-size: 1.7rem;
+  line-height: 1.85;
+  margin-top: 2rem;
+
+  h2 {
+    margin-top: 4.8rem;
+    margin-bottom: 1.6rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid $alt-bg-color;
+  }
+
+  h3 {
+    margin-top: 3.2rem;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 1.6rem 0;
+  }
+
+  ul, ol {
+    padding-left: 2.4rem;
+    margin: 1.6rem 0;
+
+    li {
+      margin: 0.6rem 0;
+    }
+  }
+}
+
+// --- Better Tables ---
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2.4rem 0;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+table th,
+table td {
+  border: none;
+  padding: 1.2rem 1.6rem;
+  text-align: left;
+}
+
+table th {
+  background-color: $alt-bg-color;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $alt-fg-color;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+table tr:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+// --- Blockquote ---
+blockquote {
+  border-left: 4px solid $link-color;
+  padding: 0.8rem 2rem;
+  margin: 2rem 0;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 0 0.6rem 0.6rem 0;
+  font-style: italic;
+}
+
+// --- Code blocks ---
+pre {
+  border-radius: 0.8rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+code {
+  font-size: 1.4rem;
+}
+
+// --- Links ---
+a {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    border-bottom-color: $link-color;
+  }
+}
+
+// --- Navigation: sticky, polished ---
+.navigation {
+  height: 6.4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+  background-color: rgba($bg-color, 0.92);
+
+  a, span {
+    font-size: 1.6rem;
+    letter-spacing: 0.03em;
+  }
+
+  .navigation-title {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  .navigation-list {
+    .navigation-item {
+      a, span {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+      }
+    }
+  }
+
+  #dark-mode-toggle {
+    margin-top: 1.2rem;
+  }
+}
+
+// --- Avatar ---
+.avatar img {
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+// --- Footer ---
+.footer {
+  font-size: 1.3rem;
+  opacity: 0.75;
+  padding: 2.4rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid $alt-bg-color;
+}
+
+// --- Tags ---
+.post-meta .tags .tag {
+  padding: 0.3rem 0.8rem;
+  border-radius: 1.2rem;
+  font-size: 1.3rem;
+
+  a {
+    border-bottom: none;
+  }
+}
+
+// --- List pages (blog index) ---
+.list {
+  ul li {
+    margin: 1.2rem 0;
+
+    .title {
+      font-size: 1.9rem;
+    }
+
+    .date {
+      font-size: 1.4rem;
+      opacity: 0.7;
+    }
+  }
+}
+
+// ===== Dark mode =====
+
+body.colorscheme-dark {
+  .navigation {
+    background: rgba($bg-color-dark, 0.94);
+    border-bottom-color: rgba(255, 255, 255, 0.06);
+  }
+
+  table th {
+    background-color: $alt-bg-color-dark;
+    color: $alt-fg-color-dark;
+  }
+
+  table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+
+  table tr:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+  }
+
+  blockquote {
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  pre {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto {
+    .navigation {
+      background: rgba($bg-color-dark, 0.94);
+      border-bottom-color: rgba(255, 255, 255, 0.06);
+    }
+
+    table th {
+      background-color: $alt-bg-color-dark;
+      color: $alt-fg-color-dark;
+    }
+
+    table tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    table tr:hover {
+      background-color: rgba(255, 255, 255, 0.06);
+    }
+
+    blockquote {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    pre {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
