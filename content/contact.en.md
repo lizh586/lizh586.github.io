@@ -8,5 +8,5 @@ date: "2026-05-08"
 
 Feel free to reach out if you'd like to discuss research, collaboration, or opportunities.
 
-- **Email**: [lize0207@outlook.com](mailto:lize0207@outlook.com)
+- **Email**: [3316968661@qq.com](mailto:3316968661@qq.com)
 - **GitHub**: [github.com/lizh586](https://github.com/lizh586)

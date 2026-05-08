@@ -8,5 +8,5 @@ date: "2026-05-08"
 
 如有关于研究、合作或实习机会的交流，欢迎联系：
 
-- **邮箱**：[lize0207@outlook.com](mailto:lize0207@outlook.com)
+- **邮箱**：[3316968661@qq.com](mailto:3316968661@qq.com)
 - **GitHub**：[github.com/lizh586](https://github.com/lizh586)

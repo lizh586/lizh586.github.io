@@ -43,17 +43,9 @@ url = "https://github.com/lizh586"
 name = "Email"
 icon = "fa-solid fa-envelope fa-2x"
 weight = 2
-url = "mailto:lize0207@outlook.com"
+url = "mailto:3316968661@qq.com"
 
-# LinkedIn removed
 
-[[params.social]]
-name = "RSS"
-icon = "fa-solid fa-rss fa-2x"
-weight = 4
-url = "/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
 
 [languages.zh]
 locale = "zh-CN"
