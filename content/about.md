@@ -31,6 +31,6 @@ date: "2026-05-08"
 | 领域 | 工具 / 框架 |
 |------|------------|
 | 编程语言 | C++, Python, 了解 Solidity |
-| ML/DL | PyTorch, NumPy, 基础的 JAX |
+| ML/DL | PyTorch, NumPy, RL（DQN/PPO/SAC）, Transformer, CNN/RNN |
 | 工具 | Git, Linux, VS Code, LaTeX |
 | 语言 | 中文（母语）, 英语（学术读写） |
