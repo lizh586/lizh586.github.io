@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RL on 李哲</title><link>https://lizh586.github.io/tags/rl/</link><description>Recent content in RL on 李哲</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lizh586.github.io/tags/rl/index.xml" rel="self" type="application/rss+xml"/><item><title>从零手写 DQN / PPO / SAC：三个强化学习算法的实战记录</title><link>https://lizh586.github.io/posts/rl-from-scratch/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://lizh586.github.io/posts/rl-from-scratch/</guid><description>&lt;h2 id="背景"&gt;
+ 背景
+ &lt;a class="heading-link" href="#%e8%83%8c%e6%99%af"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;我是中山大学数学学院大四，保研上海交大计算机。2026 年 5 月开始系统自学强化学习，目标是在入学前完成从理论到代码的闭环。&lt;/p&gt;
+&lt;p&gt;这篇文章记录了我从零手写 DQN、PPO、SAC 三个算法并全部 solved 的过程。&lt;/p&gt;
+&lt;h2 id="成果一览"&gt;
+ 成果一览
+ &lt;a class="heading-link" href="#%e6%88%90%e6%9e%9c%e4%b8%80%e8%a7%88"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;算法&lt;/th&gt;
+					&lt;th&gt;类型&lt;/th&gt;
+					&lt;th&gt;环境&lt;/th&gt;
+					&lt;th&gt;收敛结果&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;DQN&lt;/td&gt;
+					&lt;td&gt;Value-based&lt;/td&gt;
+					&lt;td&gt;CartPole / LunarLander&lt;/td&gt;
+					&lt;td&gt;728ep / 938ep solved&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PPO&lt;/td&gt;
+					&lt;td&gt;Policy gradient&lt;/td&gt;
+					&lt;td&gt;CartPole / LunarLander&lt;/td&gt;
+					&lt;td&gt;62iter / 405iter solved&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;SAC&lt;/td&gt;
+					&lt;td&gt;Max-entropy&lt;/td&gt;
+					&lt;td&gt;Pendulum&lt;/td&gt;
+					&lt;td&gt;eval return ~ -120 稳定&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="关键收获"&gt;
+ 关键收获
+ &lt;a class="heading-link" href="#%e5%85%b3%e9%94%ae%e6%94%b6%e8%8e%b7"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DQN&lt;/strong&gt;：ReplayBuffer + target network 打破自举不稳定性。ε-greedy 不能每 episode 衰减——要每 step 衰减，否则探索不足。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PPO&lt;/strong&gt;：clipped surrogate objective 限制 policy update 幅度。调参中独立定位 3 个 bug——advantage 符号反了、GAE λ 写错、entropy coef 初始值太大。&lt;/p&gt;</description></item></channel></rss>
