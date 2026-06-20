@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 李哲</title><link>https://lizh586.github.io/posts/</link><description>Recent content in Posts on 李哲</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lizh586.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>搭建这个网站</title><link>https://lizh586.github.io/posts/building-this-site/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://lizh586.github.io/posts/building-this-site/</guid><description>&lt;h2 id="为什么要个人网站"&gt;
+ 为什么要个人网站
+ &lt;a class="heading-link" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e4%b8%aa%e4%ba%ba%e7%bd%91%e7%ab%99"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;作为一名从数学转向计算机的研零学生，我希望有一个集中的地方来记录学习过程、展示项目、追踪 LeetCode 进度，同时为实习申请保持一个专业的在线形象。&lt;/p&gt;
+&lt;h2 id="技术栈"&gt;
+ 技术栈
+ &lt;a class="heading-link" href="#%e6%8a%80%e6%9c%af%e6%a0%88"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;本站使用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; — 快速的静态站点生成器&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coder 主题&lt;/strong&gt; — 简洁干净的设计&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; — 免费托管，自动部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;全站用 Markdown 编写，更新内容无需触碰 HTML。&lt;/p&gt;
+&lt;h2 id="后续计划"&gt;
+ 后续计划
+ &lt;a class="heading-link" href="#%e5%90%8e%e7%bb%ad%e8%ae%a1%e5%88%92"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;链接到标题&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;充实 RL 项目页面&lt;/li&gt;
+&lt;li&gt;写强化学习算法的学习笔记&lt;/li&gt;
+&lt;li&gt;系统追踪 LeetCode 进度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你对搭建过程感兴趣，源码见 &lt;a href="https://github.com/lizh586" class="external-link" target="_blank" rel="noopener"&gt;GitHub&lt;/a&gt;。&lt;/p&gt;</description></item></channel></rss>

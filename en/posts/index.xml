@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Li Zhe</title><link>https://lizh586.github.io/en/posts/</link><description>Recent content in Posts on Li Zhe</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://lizh586.github.io/en/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Building This Site</title><link>https://lizh586.github.io/en/posts/building-this-site/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://lizh586.github.io/en/posts/building-this-site/</guid><description>&lt;h2 id="why-a-personal-website"&gt;
+ Why a Personal Website
+ &lt;a class="heading-link" href="#why-a-personal-website"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;As a 研0 student transitioning from mathematics to computer science, I wanted a central place to document my learning journey, showcase projects, and track my LeetCode progress — all while keeping a professional online presence for internship applications.&lt;/p&gt;
+&lt;h2 id="tech-stack"&gt;
+ Tech Stack
+ &lt;a class="heading-link" href="#tech-stack"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This site is built with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; — fast static site generator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coder theme&lt;/strong&gt; — clean, minimal design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; — free hosting with automatic deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The entire site is written in Markdown, making it easy to update content without touching HTML.&lt;/p&gt;</description></item></channel></rss>
