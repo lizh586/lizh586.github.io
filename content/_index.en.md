@@ -4,16 +4,16 @@ title: "Home"
 
 Welcome to my personal website.
 
-I am a final-year undergraduate student at Sun Yat-sen University (SYSU), School of Mathematics, and will be pursuing my Master's degree in Computer Science at Shanghai Jiao Tong University (SJTU), focusing on **blockchain** and **distributed systems**.
+I am a first-year Master's student at **Shanghai Jiao Tong University** (blockchain track), with a B.S. in Mathematics from Sun Yat-sen University.
 
-My academic interests lie at the intersection of **reinforcement learning**, **deep learning**, and **quantitative finance**. I am currently self-studying RL/DL with a goal of securing a summer internship in 2026.
+My work centers on **post-training and alignment for LLMs** — I hand-wrote every LLaMA component from scratch and built the Pretrain → SFT stages of the training pipeline on top of my own model, with RM and PPO next. I also care about reinforcement learning itself, and about the intersection of blockchain and LLMs.
 
 ### Current Focus
 
-- **Reinforcement Learning**: Working through Sutton & Barto, implementing algorithms from scratch
-- **Deep Learning**: Building practical projects to complement theoretical understanding
-- **Quantitative Finance**: Connecting ML techniques with financial modeling
-- **LeetCode**: Systematically solving 200+ problems for solid algorithmic foundations
+- **LLM Post-training & Alignment**: hand-written Pretrain → SFT → RM → PPO pipeline, without `trl`
+- **Reinforcement Learning**: DQN / PPO / SAC / REINFORCE implemented from scratch
+- **Deep Learning Internals**: autograd framework, Transformer, CNN / ResNet, RNN — numerically verified against PyTorch
+- **LeetCode**: systematically solving 200+ problems for solid algorithmic foundations
 
 ### This Site
 

@@ -21,16 +21,18 @@ My mathematical training gives me a strong foundation for theoretical understand
 
 ## Research Interests
 
+- **LLM Post-training & Alignment**: SFT, reward modeling, PPO — a hand-written training pipeline
 - **Reinforcement Learning**: model-based RL, policy gradient methods, multi-agent systems
 - **Deep Learning**: representation learning, transformer architectures
-- **Quantitative Finance**: algorithmic trading, risk modeling, portfolio optimization
 - **Blockchain**: consensus protocols, decentralized systems
+- **Quantitative Finance**: algorithmic trading, risk modeling, portfolio optimization
 
 ## Skills
 
 | Area | Tools / Frameworks |
 |------|-------------------|
 | Languages | C++, Python, familiarity with Solidity |
-| ML/DL | PyTorch, NumPy, basics of JAX |
+| LLM | Hand-written LLaMA components (RoPE / RMSNorm / SwiGLU / GQA / attn_mask) + Pretrain / SFT pipeline |
+| ML/DL | PyTorch, NumPy, RL (DQN / PPO / SAC / REINFORCE), Transformer, CNN / RNN |
 | Tools | Git, Linux, VS Code, LaTeX |
 | Languages | Chinese (native), English (academic reading/writing) |

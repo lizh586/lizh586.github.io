@@ -18,9 +18,9 @@ unsafe = true
 
 [params]
 author = "李哲"
-description = "李哲的个人主页 — 数学、强化学习与量化"
-keywords = "强化学习, 深度学习, 量化, 数学, 区块链"
-info = ["中大数院 → 上交计算机", "RL / DL / Quant"]
+description = "李哲的个人主页 — LLM 后训练与对齐、强化学习与区块链"
+keywords = "LLM, 后训练, 对齐, 强化学习, 区块链, 数学"
+info = ["中大数院 → 上交（区块链专项）", "LLM 后训练 / RL"]
 avatarURL = ""
 dateFormat = "2006-01-02"
 since = 2026
@@ -55,9 +55,9 @@ weight = 1
 
 [languages.zh.params]
 author = "李哲"
-description = "李哲的个人主页 — 数学、强化学习与量化"
-keywords = "强化学习, 深度学习, 量化, 数学, 区块链"
-info = ["中大数院 → 上交计算机", "RL / DL / Quant"]
+description = "李哲的个人主页 — LLM 后训练与对齐、强化学习与区块链"
+keywords = "LLM, 后训练, 对齐, 强化学习, 区块链, 数学"
+info = ["中大数院 → 上交（区块链专项）", "LLM 后训练 / RL"]
 
 [[languages.zh.menu.main]]
 name = "首页"
@@ -97,9 +97,9 @@ weight = 2
 
 [languages.en.params]
 author = "Li Zhe"
-description = "Li Zhe's personal website — math, RL, and quant"
-keywords = "reinforcement learning, deep learning, quant, math, blockchain"
-info = ["Math → CS @ SJTU", "RL / DL / Quant"]
+description = "Li Zhe's personal website — LLM post-training and alignment, RL, and blockchain"
+keywords = "LLM, post-training, alignment, reinforcement learning, blockchain, math"
+info = ["Math → Blockchain @ SJTU", "LLM Post-training / RL"]
 dateFormat = "January 2, 2006"
 
 [[languages.en.menu.main]]

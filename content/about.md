@@ -21,16 +21,18 @@ date: "2026-05-08"
 
 ## 研究兴趣
 
+- **LLM 后训练与对齐**：SFT / 奖励模型 / PPO，训练管线的手写实现
 - **强化学习**：基于模型的方法、策略梯度、多智能体系统
 - **深度学习**：表示学习、Transformer 架构
-- **量化金融**：算法交易、风险管理、投资组合优化
 - **区块链**：共识协议、去中心化系统
+- **量化金融**：算法交易、风险管理、投资组合优化
 
 ## 技能
 
 | 领域 | 工具 / 框架 |
 |------|------------|
 | 编程语言 | C++, Python, 了解 Solidity |
-| ML/DL | PyTorch, NumPy, RL（DQN/PPO/SAC）, Transformer, CNN/RNN |
+| LLM | 手写 LLaMA 全部组件（RoPE / RMSNorm / SwiGLU / GQA / attn_mask）+ Pretrain / SFT 训练管线 |
+| ML/DL | PyTorch, NumPy, RL（DQN / PPO / SAC / REINFORCE）, Transformer, CNN / RNN |
 | 工具 | Git, Linux, VS Code, LaTeX |
 | 语言 | 中文（母语）, 英语（学术读写） |
