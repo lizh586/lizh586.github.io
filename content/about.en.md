@@ -8,8 +8,8 @@ date: "2026-05-08"
 
 | Period | Institution | Program |
 |--------|-------------|---------|
-| 2026 – 2028 (expected) | **Shanghai Jiao Tong University** | M.S. in Computer Science (Blockchain) |
-| 2022 – 2026 | **Sun Yat-sen University** | B.S. in Mathematics (Numerical Algebra) |
+| 2026 – 2028 | **Shanghai Jiao Tong University**, School of Computer Science | M.S. in Electronic Information (Computer & Big Data Technology) |
+| 2022 – 2026 | **Sun Yat-sen University**, School of Mathematics | B.S. in Mathematics and Applied Mathematics |
 
 ## Coursework Highlights
 
