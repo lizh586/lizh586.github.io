@@ -8,5 +8,5 @@ date: "2026-05-08"
 
 Feel free to reach out if you'd like to discuss research, collaboration, or opportunities.
 
-- **Email**: [3316968661@qq.com](mailto:3316968661@qq.com)
+- **Email**: [lizh586@sjtu.edu.cn](mailto:lizh586@sjtu.edu.cn)
 - **GitHub**: [github.com/lizh586](https://github.com/lizh586)
