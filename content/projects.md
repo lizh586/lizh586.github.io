@@ -62,6 +62,8 @@ SFT 这块最容易错也最值得看：prompt 段 label 置 `-100`，只在 res
 
 [从零手写 DQN / PPO / SAC：三个强化学习算法的实战记录](https://zhuanlan.zhihu.com/p/2046555983841908330)
 
+[从零手写 RLHF 四阶段：Pretrain → SFT → RM → PPO 的实战记录](https://zhuanlan.zhihu.com/p/2093725043406660747)
+
 ## MAB 缓存策略优化
 
 校级大创项目（负责人，优秀结题前 15%）。将缓存决策建模为在线学习问题，推导遗憾上界 O(√n log n)，C++ 仿真系统命中率较 LRU 提升 5%–8%。

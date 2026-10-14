@@ -29,7 +29,7 @@ Each component is verified numerically against a PyTorch reference, error < 1e-5
 | RM | Toy pairwise preference set | 2000 steps, heldout accuracy **64.6%** (31/48) |
 | PPO | Alpaca prompts (out-of-domain for the RM) | 200 steps, **no alignment gain** — SFT's stop behaviour degrades |
 
-SFT is where the subtle bugs live: prompt tokens get `-100` labels so loss is computed on the response span only, and the invariant `labels[t] == x[t+1]` (wherever `labels != -100`) is enforced as a failing assertion rather than a print. RM → PPO (the two RLHF stages) are wired up, but PPO yields no alignment gain — the KL penalty's gradient is severed by a single `.detach()`. See [the write-up](/posts/llm-rlhf-from-scratch/).
+SFT is where the subtle bugs live: prompt tokens get `-100` labels so loss is computed on the response span only, and the invariant `labels[t] == x[t+1]` (wherever `labels != -100`) is enforced as a failing assertion rather than a print. RM → PPO (the two RLHF stages) are wired up, but PPO yields no alignment gain — the KL penalty's gradient is severed by a single `.detach()`. See [the write-up](/posts/llm-rlhf-from-scratch/) (in Chinese).
 
 Datasets and checkpoints are not shipped (size), so the README documents the paths you need to supply.
 
@@ -61,6 +61,8 @@ Code lives in the `dl/` directory of [rl-from-scratch](https://github.com/lizh58
 ## Blog
 
 [Implementing DQN / PPO / SAC from scratch: notes from three reinforcement learning algorithms](https://zhuanlan.zhihu.com/p/2046555983841908330) (in Chinese)
+
+[Hand-writing the four RLHF stages — Pretrain → SFT → RM → PPO](https://zhuanlan.zhihu.com/p/2093725043406660747) (in Chinese)
 
 ## MAB Cache Replacement
 
