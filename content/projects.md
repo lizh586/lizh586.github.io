@@ -8,7 +8,7 @@ date: "2026-09-22"
 
 [GitHub](https://github.com/lizh586/llama-from-scratch)
 
-不用 `transformers`，不用 `trl`：从零手写 LLaMA 全部组件，并在自写模型上跑通 **Pretrain → SFT** 两阶段训练管线。
+不用 `transformers`，不用 `trl`：从零手写 LLaMA 全部组件，并在自写模型上跑通 **Pretrain → SFT → RM → PPO** 四阶段训练管线。
 
 | 组件 | 说明 |
 |------|------|
@@ -26,8 +26,10 @@ date: "2026-09-22"
 |------|------|------|
 | Pretrain | shakespeare_char（字符级） | 800 步，val **1.5242** nats |
 | SFT | Alpaca-cleaned | 1782 步，val **2.9280 → 1.5597** |
+| RM | 玩具成对偏好集 | 2000 步，heldout 准确率 **64.6%**（31/48） |
+| PPO | Alpaca prompt（对 RM 为域外） | 200 步，**未取得对齐提升**，SFT 学到的收尾能力反而退化 |
 
-SFT 这块最容易错也最值得看：prompt 段 label 置 `-100`，只在 response 段算 loss；核心不变式 `labels[t] == x[t+1]`（非 `-100` 处）被落成可失败的断言而不是 print。RM → PPO（RLHF 后两阶段）推进中。
+SFT 这块最容易错也最值得看：prompt 段 label 置 `-100`，只在 response 段算 loss；核心不变式 `labels[t] == x[t+1]`（非 `-100` 处）被落成可失败的断言而不是 print。RM → PPO（RLHF 后两阶段）已串通，但 PPO 没跑出对齐提升——根因是 KL 惩罚项的梯度被一处 `.detach()` 切断，追因过程见[博客文章](/posts/llm-rlhf-from-scratch/)。
 
 数据与 checkpoint 不进仓库（体积原因），README 里写了需要自备的路径。
 

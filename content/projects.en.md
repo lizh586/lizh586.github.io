@@ -8,7 +8,7 @@ date: "2026-09-22"
 
 [GitHub](https://github.com/lizh586/llama-from-scratch)
 
-No `transformers`, no `trl`: every LLaMA component hand-written, with the **Pretrain → SFT** stages of the training pipeline running on my own model.
+No `transformers`, no `trl`: every LLaMA component hand-written, with the full **Pretrain → SFT → RM → PPO** training pipeline running on my own model.
 
 | Component | Notes |
 |-----------|-------|
@@ -26,8 +26,10 @@ Each component is verified numerically against a PyTorch reference, error < 1e-5
 |-------|------|--------|
 | Pretrain | shakespeare_char (character-level) | 800 steps, val **1.5242** nats |
 | SFT | Alpaca-cleaned | 1782 steps, val **2.9280 → 1.5597** |
+| RM | Toy pairwise preference set | 2000 steps, heldout accuracy **64.6%** (31/48) |
+| PPO | Alpaca prompts (out-of-domain for the RM) | 200 steps, **no alignment gain** — SFT's stop behaviour degrades |
 
-SFT is where the subtle bugs live: prompt tokens get `-100` labels so loss is computed on the response span only, and the invariant `labels[t] == x[t+1]` (wherever `labels != -100`) is enforced as a failing assertion rather than a print. RM → PPO (the two RLHF stages) are in progress.
+SFT is where the subtle bugs live: prompt tokens get `-100` labels so loss is computed on the response span only, and the invariant `labels[t] == x[t+1]` (wherever `labels != -100`) is enforced as a failing assertion rather than a print. RM → PPO (the two RLHF stages) are wired up, but PPO yields no alignment gain — the KL penalty's gradient is severed by a single `.detach()`. See [the write-up](/posts/llm-rlhf-from-scratch/).
 
 Datasets and checkpoints are not shipped (size), so the README documents the paths you need to supply.
 
